@@ -61,7 +61,7 @@ body {
 	background-color: #000;
 	width: 150px;
 	margin: 3px;
-	margin-left: 500px;
+	margin-left: 620px;
 }
 
 h2 {
@@ -77,12 +77,12 @@ h3 {
 }
 
 h4 {
-	margin-left: -820px;
+	margin-left: -1090px;
 	margin-top: -0px;
 }
 
 h5 {
-	margin-left: -820px;
+	margin-left: -1090px;
 	margin-top: -0px;
 }
 
@@ -98,18 +98,62 @@ h5 {
 	background-color: azure;
 }
 
-#myCarousel {
-	background-color: darkgray;
+.travel_mainDiv
+{
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+  border: 1px solid #c7c7c7;
 }
 
-#mycarousel img {
-	height: 300px;
-	margin-top: 35px;
+.travel_mainDiv img
+{
+  width: 100%;
+  height:300px;
+} 
+
+.travel_mainDiv hr
+{
+    width: 100%; 
 }
 
-.carousel-inner p {
-	margin-top: 30px;
-	margin-bottom: 15px;
-	color:White ;
-	font-size: 25px;
+.travel_mainDiv h5 , .travel_mainDiv p
+{
+margin-left: 20px;
+}
+.movie_head
+{
+    font-size: 20px;
+    padding: 6px 22px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    width: 100%;
+    display: inline-block;
+}
+
+.movie_head i
+{
+float: right;
+}
+
+.movie_text span
+{
+color: #ff7700;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+h21{
+	margin-right: 800px;
+	font-size:30px;
+	font-weight: 900;
+	color:dimgray;
+}
+h20{
+	margin-right: 900px;
+	font-size:30px;
+	font-weight: 900;
+	color:dimgray;
 }
